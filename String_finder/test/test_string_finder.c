@@ -56,7 +56,7 @@ void test_strings_without_delimiters(void)
 
 /**
  * @brief Test strings with delimiters
- * 
+ * Added
  */
 void test_strings_with_delimiters(void)
 {
@@ -77,7 +77,11 @@ void test_strings_with_delimiters(void)
   TEST_ASSERT_EQUAL_STRING("$use the read data;", ouput_string3);
 }
 
-
+/**
+ * @brief What this function does
+ * 
+ * @return int 
+ */
 int test_main(void)
 {
   /* Initiate the Unity Test Framework */
