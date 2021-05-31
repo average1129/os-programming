@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: make all
-      run:  make test_run
+    - name: make -C String_finder all
+      run:  make -C String_finder test_run
